@@ -15,7 +15,7 @@ socwatch -t 60 -f cpu-cstate -m -o results/test -r vtune
 ```
 
 
-結果例
+ログ例
 ```
 --------------------------------------------------------------------------
 Intel(R) SoC Watch for Windows* OS Version 2025.0.0 [Jan 24 2025]
@@ -40,4 +40,10 @@ FATAL: Warning: Lost events detected (5975159) in results\test_osSession.etl.
 *** Data written to: C:\Users\kminemur\source\socwatch_101\results\test
 ```
 
-## ステップ3
+## ステップ3　表示
+対象システムからホストシステムへ test.pwr レポートファイルをコピーします。 
+Intel® VTune™ Profiler プロジェクトにファイルをインポートします：
+1. ホストシステムで Intel® VTune™ Profiler の GUI を起動します。
+2. 新しいプロジェクトを作成するか、既存のプロジェクトを開きます。
+3. 「結果をインポート（Import Result）」をクリックし、test.pwr ファイルを選択します。
+4. 結果は、デフォルトの「プラットフォーム電力解析（Platform Power Analysis）」ビューで開かれます。

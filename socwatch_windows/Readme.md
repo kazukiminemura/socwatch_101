@@ -41,7 +41,7 @@ FATAL: Warning: Lost events detected (5975159) in results\test_osSession.etl.
 ```
 
 ## ステップ3　表示
-対象システムからホストシステムへ test.pwr レポートファイルをコピーします。 
+対象システムからホストシステムへ test.pwr レポートファイルをコピーします。  
 Intel® VTune™ Profiler プロジェクトにファイルをインポートします：
 1. ホストシステムで Intel® VTune™ Profiler の GUI を起動します。
 2. 新しいプロジェクトを作成するか、既存のプロジェクトを開きます。

@@ -47,3 +47,7 @@ Intel® VTune™ Profiler プロジェクトにファイルをインポートし
 2. 新しいプロジェクトを作成するか、既存のプロジェクトを開きます。
 3. 「結果をインポート（Import Result）」をクリックし、test.pwr ファイルを選択します。
 4. 結果は、デフォルトの「プラットフォーム電力解析（Platform Power Analysis）」ビューで開かれます。
+<img width="932" alt="image" src="https://github.com/user-attachments/assets/78ebf77a-c226-45bc-9125-4fc873d070db" />
+
+<img width="915" alt="image" src="https://github.com/user-attachments/assets/d8ad5c91-1be4-439b-af2d-5d1cb175f91e" />
+

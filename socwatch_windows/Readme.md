@@ -9,11 +9,11 @@ set PATH="C:\Program Files (x86)\Intel\oneAPI\vtune\latest\socwatch\64";%PATH%
 ## ステップ２
 Intel® SoC Watch がインストールされた対象システムで、管理者権限でコマンドプロンプトを開きます。  
 以下のコマンドを実行して、60 秒間にわたる低電力状態での CPU 時間をキャプチャし、その結果を Intel® VTune™ Profiler にインポートします。  
-
+レポートファイルは、results ディレクトリに test.pwr という名前で保存されます。
 ```
 socwatch -t 60 -f cpu-cstate -m -o results/test -r vtune
 ```
-レポートファイルは、results ディレクトリに test.pwr という名前で保存されます。
+
 
 結果例
 ```

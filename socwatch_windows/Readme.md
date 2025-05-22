@@ -1,2 +1,6 @@
-# Get Started with the Intel® System Bring-up Toolkit for Windows
-https://www.intel.com/content/www/us/en/docs/system-bring-up-toolkit/get-started-guide-windows/2022-1/intel-soc-watch-and-intel-vtune-profiler.html
+# Windows上でのSoCWatch 
+ntel® SoC Watch がインストールされた対象システムで、管理者権限でコマンドプロンプトを開きます。  
+以下のコマンドを実行して、60 秒間にわたる低電力状態での CPU 時間をキャプチャし、その結果を Intel® VTune™ Profiler にインポートします。  
+
+
+

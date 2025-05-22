@@ -2,6 +2,9 @@
 ## ステップ１
 SoCWatchのインストールと設定
 Intel VTuneをインストールするとSoCWatchもインストールされます。
+```
+set PATH="C:\Program Files (x86)\Intel\oneAPI\vtune\latest\socwatch\64";%PATH%
+```
 
 ## ステップ２
 Intel® SoC Watch がインストールされた対象システムで、管理者権限でコマンドプロンプトを開きます。  
